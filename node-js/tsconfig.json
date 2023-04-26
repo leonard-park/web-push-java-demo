@@ -1,0 +1,53 @@
+{
+ "compilerOptions": {
+  "allowJs": true,
+  "target": "esnext",
+  "module": "esnext",
+  "moduleResolution": "node",
+  "sourceMap": true,
+  "allowSyntheticDefaultImports": true,
+  "baseUrl": ".",
+  "esModuleInterop": true,
+  "experimentalDecorators": true,
+  "noEmit": true,
+  "noImplicitAny": false,
+  "noImplicitThis": false,
+  "noUnusedLocals": false,
+  "noUnusedParameters": false,
+  "removeComments": true,
+  "resolveJsonModule": true,
+  "strict": false,
+  "strictFunctionTypes": false,
+  "strictNullChecks": true,
+  "strictPropertyInitialization": false,
+  "suppressImplicitAnyIndexErrors": true,
+  "lib": [
+   "dom",
+   "dom.iterable",
+   "esnext",
+   "esnext.asynciterable",
+   "scripthost"
+  ],
+  "types": [
+   "moment",
+   "vuetify",
+   "@types/node",
+   "node"
+  ],
+  "paths": {
+   "~/*": [
+    "./src/*"
+   ]
+  }
+ },
+ "include": [
+  "src/**/*.ts",
+  "src/**/*.tsx",
+  "src/**/*.vue",
+  "tests/**/*.ts",
+  "tests/**/*.tsx"
+ ],
+ "exclude": [
+  "node_modules"
+ ]
+}
